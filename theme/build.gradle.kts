@@ -17,6 +17,6 @@ tasks {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    implementation("io.github.javaeden.orchid:OrchidCore:0.18.0")
+    implementation("io.github.javaeden.orchid:OrchidCore:${Versions.ORCHID}")
     testCompile("junit", "junit", "4.12")
 }

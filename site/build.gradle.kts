@@ -19,10 +19,10 @@ tasks {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation(project(":theme"))
-    orchidCompile("io.github.javaeden.orchid:OrchidCore:0.18.0")
-    orchidCompile ("io.github.javaeden.orchid:OrchidBsDoc:0.18.0")
-    orchidCompile ("io.github.javaeden.orchid:OrchidPages:0.18.0")
-    orchidCompile ("io.github.javaeden.orchid:OrchidAsciidoc:0.18.0")
+    orchidCompile("io.github.javaeden.orchid:OrchidCore:${Versions.ORCHID}")
+    orchidCompile ("io.github.javaeden.orchid:OrchidBsDoc:${Versions.ORCHID}")
+    orchidCompile ("io.github.javaeden.orchid:OrchidPages:${Versions.ORCHID}")
+    orchidCompile ("io.github.javaeden.orchid:OrchidAsciidoc:${Versions.ORCHID}")
     testCompile("junit", "junit", "4.12")
 }
 

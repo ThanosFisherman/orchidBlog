@@ -1,7 +1,7 @@
 plugins {
     base
     kotlin("jvm") version Versions.KOTLIN
-    id("com.eden.orchidPlugin") version "0.18.0"
+    id("com.eden.orchidPlugin") version Versions.ORCHID
 }
 
 buildscript {
