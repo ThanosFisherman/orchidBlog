@@ -1,7 +1,7 @@
 plugins {
     base
     kotlin("jvm") version Versions.KOTLIN
-    id("com.eden.orchidPlugin") version Versions.ORCHID
+    id("com.eden.orchidPlugin") version Versions.ORCHID apply false //applies only to the submodules who ask for it
 }
 
 buildscript {
