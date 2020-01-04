@@ -18,8 +18,8 @@ tasks {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    implementation(project(":theme"))
-    orchidCompile("io.github.javaeden.orchid:OrchidCore:${Versions.ORCHID}")
+    //implementation(project(":theme"))
+    implementation("io.github.javaeden.orchid:OrchidCore:${Versions.ORCHID}")
     orchidCompile ("io.github.javaeden.orchid:OrchidBsDoc:${Versions.ORCHID}")
     orchidCompile ("io.github.javaeden.orchid:OrchidPages:${Versions.ORCHID}")
     orchidCompile ("io.github.javaeden.orchid:OrchidAsciidoc:${Versions.ORCHID}")

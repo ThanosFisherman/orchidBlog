@@ -11,3 +11,4 @@
 /theme/out/**
 /buildSrc/out/**
 build/
+/site/out/*
