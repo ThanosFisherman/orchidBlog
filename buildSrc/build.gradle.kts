@@ -1,5 +1,5 @@
 plugins {
-    java
+    base
     `kotlin-dsl`
 }
 
