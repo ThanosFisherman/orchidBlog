@@ -18,7 +18,7 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     //implementation(project(":theme"))
-    implementation("io.github.javaeden.orchid:OrchidCore:${Versions.ORCHID}")
+    orchidImplementation("io.github.javaeden.orchid:OrchidCore:${Versions.ORCHID}")
     //orchidImplementation("io.github.javaeden.orchid:OrchidBsDoc:${Versions.ORCHID}")
     orchidImplementation("io.github.javaeden.orchid:OrchidPages:${Versions.ORCHID}")
     orchidImplementation("io.github.javaeden.orchid:OrchidAsciidoc:${Versions.ORCHID}")
