@@ -19,9 +19,11 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
     //implementation(project(":theme"))
     orchidImplementation("io.github.javaeden.orchid:OrchidCore:${Versions.ORCHID}")
+    orchidImplementation("io.github.javaeden.orchid:OrchidPosts:${Versions.ORCHID}")
     //orchidImplementation("io.github.javaeden.orchid:OrchidBsDoc:${Versions.ORCHID}")
     orchidImplementation("io.github.javaeden.orchid:OrchidPages:${Versions.ORCHID}")
     orchidImplementation("io.github.javaeden.orchid:OrchidAsciidoc:${Versions.ORCHID}")
+    orchidImplementation("io.github.javaeden.orchid:OrchidSourceDoc:${Versions.ORCHID}")
     testImplementation("junit", "junit", "4.12")
 }
 
