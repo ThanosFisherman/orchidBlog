@@ -25,8 +25,16 @@ dependencies {
     testImplementation("junit", "junit", "4.12")
 }
 
-// Use the 'BsDoc' theme, and view the site locally at 'http://localhost:8080'
 orchid {
-    theme = "BsDoc"
+    theme = "MateoTheme"
     baseUrl = "http://localhost:8080"
+
+    environment = if (findProperty("env") == "prod") { "prod" } else { "debug" }
+    //args = listOf("--experimentalSourceDoc")
+
+    githubToken = if (hasProperty("github_token")) {
+        property("github_token").toString()
+    } else {
+        System.getenv("GITHUB_TOKEN")
+    }
 }

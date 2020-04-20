@@ -1,12 +1,12 @@
-package com.eden.orchid.bsdoc
+package com.thanosfisherman.mateo
 
 import com.eden.orchid.api.registration.OrchidModule
 import com.eden.orchid.api.theme.Theme
 import com.eden.orchid.utilities.addToSet
 
-class BsDocModule : OrchidModule() {
+class MateoModule : OrchidModule() {
 
     override fun configure() {
-        addToSet<Theme, BSDocTheme>()
+        addToSet<Theme, MateoTheme>()
     }
 }
