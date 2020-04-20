@@ -1,0 +1,29 @@
+/* Footer */
+.footer {
+  padding: 50px 15px;
+  margin-top: 60px;
+  text-align: center;
+  border-top: 1px solid $light-gray;
+  color: $gray;
+  background-color: $white;
+
+  .contact__list {
+    margin-bottom: 15px;
+    .contact__item {
+      display: inline-block;
+      margin: 0 10px;
+      .contact__link {
+        display: inline-block;
+      }
+    }
+  }
+
+  @media only screen and (max-width: $mobile) {
+    margin-top: 30px;
+  }
+}
+
+.copyright {
+  font-size: 14px;
+  line-height: 24px;
+}

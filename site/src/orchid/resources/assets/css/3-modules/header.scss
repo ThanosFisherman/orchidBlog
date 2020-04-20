@@ -1,0 +1,163 @@
+/* Header */
+.header {
+  margin-bottom: 60px;
+  width: 100%;
+  border-bottom: 1px solid $light-gray;
+  background-color: $white;
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 30px;
+  }
+}
+
+.header__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0;
+  
+  @media only screen and (max-width: $mobile) {
+    padding: 20px 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.header__overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(12, 12, 12, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  &.is-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.logo {
+  margin-bottom: 5px;
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 0;
+    line-height: initial;
+  }
+}
+
+.logo__image {
+  max-height: 50px
+}
+
+.logo__link {
+  font-size: 28px;
+  font-family: "Prata", serif;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $dark;
+  &:hover {
+    color: darken($dark, 10%);
+  }
+  @media only screen and (max-width: $mobile) {
+    font-size: 21px;
+    letter-spacing: 3px;
+  }
+}
+
+.menu-overlay {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item {
+  display: inline-block;
+  @media only screen and (max-width: $mobile) {
+    display: block;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid $light-gray;
+  }
+}
+
+.nav__link {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $dark;
+  &:hover {
+    color: $brand-color;
+  }
+  @media only screen and (max-width: $mobile) {
+    margin: 0;
+    font-size: 16px;
+  }
+}
+
+.nav-buttons {
+  display: flex;
+  margin-left: 5px;
+  padding-left: 10px;
+  border-left: 1px solid $light-gray;
+  .nav__icon {
+    font-size: 19px;
+    color: $dark;
+    transition: $global-transition;
+    cursor: pointer;
+    &:hover {
+      color: $brand-color;
+    }
+  }
+  
+  .nav__icon-menu {
+    display: none;
+    margin-right: 10px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    border-left: none;
+    .nav__icon {
+      font-size: 23px;
+    }
+    .nav__icon-menu {
+      display: block;
+    }
+  }
+}
+
+.main-nav__box {
+  @media only screen and (max-width: $mobile) {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    bottom: 0;
+    z-index: 100;
+    width: 300px;
+    padding: 80px 40px 0;
+    text-align: center;
+    background-color: $white;
+    transition: right 0.5s cubic-bezier(0.7, 0.4, 0, 1);
+    &.is-open {
+      right: 0;
+    }
+  }
+}
+
+.nav__icon-close {
+  display: none;
+  font-size: 23px;
+  cursor: pointer;
+  @media only screen and (max-width: $mobile) {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: block;
+  }
+}

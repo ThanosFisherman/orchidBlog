@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% include slider.html %}
+
+<div class="container">
+  <div class="row">
+    <div class="col col-8 col-d-10 col-m-12 push-m-0 push-d-1">
+      <div class="container__inner">
+        <div class="container__inner-box">
+          <div class="row grid">
+            {% if site.posts.size > 0 %}
+              {% for post in paginator.posts %}
+              <div class="article col col-6 col-d-6 col-m-12 grid__post">
+                {% include article.html %}
+              </div>
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% include pagination.html %}
+    </div>
+    <div class="col col-4 col-d-10 push-d-1 col-m-12 push-m-0">
+      {% include sidebar.html %}
+    </div>
+  </div>
+</div>

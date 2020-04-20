@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="container">
+  <div class="row">
+    <div class="col col-8 col-d-10 col-m-12 push-m-0 push-d-1">
+      {% if page.image %}
+      <div class="image-box">
+        <div class="page-image" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
+      </div>
+      {% endif %}
+      <!-- begin page -->
+      <article class="page">
+        <div class="page-head">
+          <h1 class="page-head__title">{{ page.title | escape }}</h1>
+        </div>
+        <div class="page__content">
+          {{ content }}
+        </div>
+      </article>
+      <!-- end page -->
+    </div>
+    <div class="col col-4 col-d-10 col-m-12 push-d-1 push-m-0">
+      {% include sidebar.html %}
+    </div>
+  </div>
+</div>

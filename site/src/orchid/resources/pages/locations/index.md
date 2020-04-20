@@ -1,3 +1,0 @@
-- [Houston](http://localhost:8080/locations/houston)
-- [Dallas](http://localhost:8080/locations/dallas)
-- [Austin](http://localhost:8080/locations/austin)

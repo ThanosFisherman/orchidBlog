@@ -1,0 +1,10 @@
+{% if site.tags.size >= 1 %}
+<div class="widget widget-tags">
+  <div class="widget__head">
+    <h4 class="widget__title">Tags<span>.</span></h4>
+  </div>
+  <div class="tag__cloud">
+    {{ site | tag_cloud }}
+  </div>
+</div>
+{% endif %}
