@@ -82,14 +82,12 @@ class MateoTheme @Inject constructor(
             )
         )
         addCss("https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css")
-        addCss("assets/css/bsdoc.scss")
+        addCss("assets/css/4-layouts/page.scss")
 
         addJs("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js")
         addJs("https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js")
         addJs("https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.3.0/bootbox.min.js")
-        addJs("assets/js/bsdoc.js")
-
-        addCss("assets/css/orchidSearch.scss")
+        addJs("assets/js/common.js")
     }
 
     override fun onPostExtraction() {
