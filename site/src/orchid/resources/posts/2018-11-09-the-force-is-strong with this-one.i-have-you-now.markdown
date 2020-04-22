@@ -2,7 +2,7 @@
 layout: post
 title:  The Force is strong with this one. I have you now
 date:   2018-11-09 15:01:35 +0300
-image:  '/images/06.jpg'
+image:  'assets/images/06.jpg'
 tags:   Life
 featured: true
 ---

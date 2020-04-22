@@ -2,7 +2,7 @@
 layout: post
 title:  In my experience, there is no such thing as luck
 date:   2018-11-05 15:01:35 +0300
-image:  '/images/10.jpg'
+image:  'assets/images/10.jpg'
 tags:   Work
 featured: true
 ---

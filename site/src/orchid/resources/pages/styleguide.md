@@ -2,7 +2,7 @@
 layout: page
 title: Style Guide
 permalink: /styleguide/
-image: '/images/12.jpg'
+image: 'assets/images/12.jpg'
 ---
 
 A paragraph looks like this — dolor amet cray stumptown fingerstache neutra food truck seitan poke cardigan waistcoat VHS snackwave celiac hella. Godard seitan shoreditch flexitarian next level trust fund man braid vegan listicle keytar bitters. Disrupt cray fashion axe unicorn lomo shaman poke glossier keffiyeh snackwave austin tattooed seitan hexagon lo-fi. Lumbersexual irony vaporware, butcher shaman church-key iceland.
@@ -18,7 +18,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 ##### H5 For example
 ###### H6 For example
 
-{% highlight markdown %}
+{% highlight 'md' %}
 ## Heading first level
 ### Heading second level
 #### Heading third level
@@ -46,7 +46,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 * Mlkshk polaroid sriracha brooklyn.
 * Pug you probably haven't heard of them air plant man bun.
 
-{% highlight markdown %}
+{% highlight 'md' %}
 1. Order list item 1
 2. Order list item 1
 
@@ -63,7 +63,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 > The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
 > <cite>George Bernard Shaw</cite>
 
-{% highlight html %}
+{% highlight 'html' %}
 > The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
 > <cite>George Bernard Shaw</cite>
 {% endhighlight %}
@@ -74,7 +74,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 
 ## Syntax Highlighter
 
-{% highlight js %}
+{% highlight 'js' %}
   $('.top').click(function () {
     $('html, body').stop().animate({ scrollTop: 0 }, 'slow', 'swing');
   });
@@ -93,7 +93,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 
 <p><iframe src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe></p>
 
-{% highlight html %}
+{% highlight 'html' %}
   <iframe src="https://www.youtube.com/embed/iWowJBRMtpc" frameborder="0" allowfullscreen></iframe>
 {% endhighlight %}
 
@@ -104,7 +104,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 ![]({{site.baseurl}}/images/09.jpg)
 *Mountain in Nepal*
 
-{% highlight markdown %}
+{% highlight 'md' %}
   ![]({{site.baseurl}}/images/09.jpg)
   *Mountain in Nepal*
 {% endhighlight %}

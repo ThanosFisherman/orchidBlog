@@ -2,7 +2,7 @@
 layout: post
 title:  The plans you refer to will soon be back in our hands
 date:   2018-05-28 14:05:55 +0300
-image:  '/images/14.jpg'
+image:  'assets/images/14.jpg'
 tags:   Jekyll
 ---
 Still, she's got a lot of spirit. I don't know, what do you think? Hokey religions and ancient weapons are no match for a good blaster at your side, kid. I can't get involved! I've got work to do! It's not that I like the Empire, I hate it, but there's nothing I can do about it right now. It's such a long way from here. I suggest you try it again, Luke. You are a part of the Rebel Alliance and a traitor! 

@@ -2,7 +2,7 @@
 layout: post
 title:  Partially, but it also obeys your commands
 date:   2018-11-10 15:01:35 +0300
-image:  '/images/05.jpg'
+image:  'assets/images/05.jpg'
 tags:   Work
 ---
 Still, she's got a lot of spirit. I don't know, what do you think? Hokey religions and ancient weapons are no match for a good blaster at your side, kid. I can't get involved! I've got work to do! It's not that I like the Empire, I hate it, but there's nothing I can do about it right now. It's such a long way from here. I suggest you try it again, Luke. You are a part of the Rebel Alliance and a traitor! 

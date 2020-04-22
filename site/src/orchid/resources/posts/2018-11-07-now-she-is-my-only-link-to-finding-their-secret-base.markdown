@@ -2,7 +2,7 @@
 layout: post
 title:  Now she is my only link to finding their secret base
 date:   2018-11-07 15:01:35 +0300
-image:  '/images/08.jpg'
+image:  'assets/images/08.jpg'
 tags:   Travels
 featured: true
 ---
