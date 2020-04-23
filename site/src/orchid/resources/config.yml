@@ -1,6 +1,7 @@
 site:
   theme: "MateoTheme"
   baseUrl: "http://localhost:8080"
+  slider: true
   about:
     siteName: 'Mateo'
 

@@ -6,24 +6,25 @@
       <div class="slider">
         <div class="slider__inner">
           <div class="slider__box">
-            {% for post in site.posts %}
+            {% set posts = findAll(collectionType='posts') %}
+            {% for post in posts %}
             {% if post.featured == true %}
             <div class="slider__item">
               <div class="slider__main">
-                <a href="{{ post.url | prepend: site.baseurl }}"
-                  style="background-image: url({{site.baseurl}}{{post.image}})" class="slider__image"
+                <a href="{{ post.link }}"
+                  style="background-image: url({{post.image | asset}})" class="slider__image"
                   aria-label="{{ post.title }}"></a>
                 <div class="slider__content">
                   <div class="slider__tags">
                     {% for tag in post.tags %}
-                    <a class="slider__tag" href="{{ site.baseurl }}/tag/{{tag}}">&#x23; {{tag}}</a>
+                    <a class="slider__tag" href="{{ 'tag/' | baseUrl }}">&#x23; {{tag}}</a>
                     {% endfor %}
                   </div>
-                  <h2 class="slider__title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                  <h2 class="slider__title"><a href="{{ post.link }}">{{ post.title }}</a></h2>
                   <div class="slider__meta">
                     <span class="slider__date"><time datetime="{{ post.date | date_to_xmlschema }}"><i
                           class="ion ion-ios-calendar"></i>
-                        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ post.date | date: date_format }}</time>
+{#                        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ post.date | date: date_format }}</time>#}
                     </span>
                   </div>
                 </div>
