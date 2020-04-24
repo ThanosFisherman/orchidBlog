@@ -1,0 +1,15 @@
+<!-- begin sidebar -->
+<aside class="sidebar">
+
+  {% include 'includes/sidebar/widget-about' %}
+
+{#  {% include 'includes/sidebar/widget-newsletter' %}#}
+
+{#  {% include 'includes/sidebar/widget-recent-posts' %}#}
+{#  #}
+{#  {% include 'includes/sidebar/widget-tags' %}#}
+
+{#  {% include 'includes/sidebar/widget-instagram' %}#}
+
+</aside>
+<!-- end sidebar -->

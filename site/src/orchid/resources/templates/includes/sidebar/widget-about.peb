@@ -1,0 +1,12 @@
+<div class="widget widget-author">
+  <div class="widget__head">
+    <h4 class="widget__title">About<span>.</span></h4>
+  </div>
+  <div class="author-image-box">
+    <a href="{{ link('About') }}" class="author__image"
+      style="background-image: url({{site.about.avatar | asset }})"></a>
+  </div>
+  <h5 class="author__name">{{author.name}}</h5>
+  <div class="author__bio">{{site.about.siteDescription}}</div>
+{#  {% include '../contact-link' %}#}
+</div>

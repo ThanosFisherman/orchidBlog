@@ -1,12 +1,13 @@
 site:
   theme: "MateoTheme"
   baseUrl: "http://localhost:8080"
-  slider: true
   about:
+    avatar: 'assets/images/15.jpg'
+    favicon: 'assets/favicon.ico'
+    siteDescription: "balbal ablaba lbala "
     siteName: 'Mateo'
 
 theme:
-  primaryColor: '#dd9999'
   menu:
     - type: 'page'
       itemId: 'Locations'
@@ -32,3 +33,7 @@ pages:
       - type: pages
         group: 'locations'
         order: 3
+
+authorPages:
+  author:
+    name: 'AUTHOR'

@@ -1,4 +1,4 @@
-{#{% include 'includes/slider.html' %}#}
+{#{% include 'includes/slider' %}#}
 
 <div class="container">
   <div class="row">
@@ -20,7 +20,7 @@
 {#    {% include pagination.html %}#}
     </div>
     <div class="col col-4 col-d-10 push-d-1 col-m-12 push-m-0">
-{#      {% include sidebar.html %}#}
+      {% include 'includes/sidebar' %}
     </div>
   </div>
 </div>
