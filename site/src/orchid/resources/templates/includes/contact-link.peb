@@ -1,7 +1,7 @@
-{% if site.contact %}
+{% if page.contact is not null %}
   <div class="contact">
     <ul class="contact__list list-reset">
-      {% for contact in site.contact %}
+      {% for contact in page.contact %}
       <li class="contact__item">
         <a class="contact__link" href="{{contact.link}}" target="_blank"><i class="ion {{contact.icon}}"></i> {{contact.name}}</a>
       </li>

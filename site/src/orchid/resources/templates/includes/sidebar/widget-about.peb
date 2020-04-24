@@ -6,7 +6,8 @@
     <a href="{{ link('About') }}" class="author__image"
       style="background-image: url({{site.about.avatar | asset }})"></a>
   </div>
-  <h5 class="author__name">{{author.name}}</h5>
-  <div class="author__bio">{{site.about.siteDescription}}</div>
-{#  {% include '../contact-link' %}#}
+
+  <h5 class="author__name">{{page.authorName}}</h5>
+  <div class="author__bio">{{page.authorBio}}</div>
+  {% include 'includes/contact-link' %}
 </div>

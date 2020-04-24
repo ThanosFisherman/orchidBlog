@@ -17,6 +17,13 @@ theme:
       itemId: 'Staff'
 
 allPages:
+  authorName: 'Thanos Psaridis'
+  authorBio: "I'm a software engineer and I like programming stuff"
+  contact:
+    - {icon: "ion-logo-twitter", link: "https://twitter.com"}
+    - {icon: "ion-logo-facebook", link: "https://facebook.com"}
+    - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+    - {icon: "ion-logo-instagram", link: "https://instagram.com"}
   template: 'page'
   menu:
     - type: pageIds
@@ -34,6 +41,18 @@ pages:
         group: 'locations'
         order: 3
 
-authorPages:
-  author:
-    name: 'AUTHOR'
+#posts:
+#  # configure the site authors
+#  authors:
+#    - name: 'Thanos'
+#      email: 'example@email.com'
+#      avatar: 'asasds'
+#    - name: 'THANOS2'
+#      email: 'example2@email.com'
+#      avatar: 'asasds2'
+#    - name: 'THANOS3'
+#      email: 'example2@email.com'
+#      avatar: 'asasds2'
+#  # Use `posts.postPages` Archetype to set the default author for all posts
+#  postPages:
+#    author: 'Thanosasd@asds.com'
