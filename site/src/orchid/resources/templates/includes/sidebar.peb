@@ -5,7 +5,7 @@
 
 {#  {% include 'includes/sidebar/widget-newsletter' %}#}
 
-{#  {% include 'includes/sidebar/widget-recent-posts' %}#}
+  {% include 'includes/sidebar/widget-recent-posts' %}
 {#  #}
 {#  {% include 'includes/sidebar/widget-tags' %}#}
 
