@@ -41,18 +41,18 @@ pages:
         group: 'locations'
         order: 3
 
-#posts:
-#  # configure the site authors
-#  authors:
-#    - name: 'Thanos'
-#      email: 'example@email.com'
-#      avatar: 'asasds'
-#    - name: 'THANOS2'
-#      email: 'example2@email.com'
-#      avatar: 'asasds2'
-#    - name: 'THANOS3'
-#      email: 'example2@email.com'
-#      avatar: 'asasds2'
-#  # Use `posts.postPages` Archetype to set the default author for all posts
-#  postPages:
-#    author: 'Thanosasd@asds.com'
+posts:
+  # configure the site authors
+  authors:
+    - name: 'Thanos'
+      email: 'example@email.com'
+      avatar: 'asasds'
+    - name: 'THANOS2'
+      email: 'example2@email.com'
+      avatar: 'asasds2'
+    - name: 'THANOS3'
+      email: 'example2@email.com'
+      avatar: 'asasds2'
+  # Use `posts.postPages` Archetype to set the default author for all posts
+  postPages:
+    author: 'Thanosasd@asds.com'
